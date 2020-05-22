@@ -1,5 +1,5 @@
 # termux_after_d
-program yang disarangkan anda install setelah menginstall termux
+program yang disarankan anda install setelah menginstall termux
 
 # Perintah
 ```
