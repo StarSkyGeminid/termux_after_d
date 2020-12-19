@@ -10,8 +10,8 @@ printf "Menginstall Program Program yang Sering digunakan\n\n"
 apt update && apt upgrade -y && clear
 [[ -z $(command -v python3) ]] && apt install python3 -y && clear && py3=1
 [[ -z $(command -v python2) ]] && apt install python2 -y && clear && py2=1
-[[ -z $(command -v php) ]] && apt install php -y && clear
 [[ -z $(command -v ruby) ]] && apt install ruby -y && clear && rby=1
+[[ -z $(command -v neofetch) ]] && apt install neofetch -y && clear
 [[ -z $(command -v figlet) ]] && apt install figlet -y && clear
 [[ -z $(command -v nano) ]] && apt install nano -y && clear
 
